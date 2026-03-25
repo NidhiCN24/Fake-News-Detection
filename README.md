@@ -18,6 +18,8 @@ Conclusion: Linear Regression successfully models the relationship between house
 
 #Fake_News_Detector
 
+Link to explanation video : https://drive.google.com/file/d/1-bZbc1fHtf8QaWprcLKeLAmDbL4wTShm/view?usp=drivesdk
+
 Problem Statement: With the rapid spread of information online, distinguishing between real and fake news has become increasingly difficult. Fake news can mislead people, create panic, and influence public opinion. The goal of this project is to build a machine learning model that can automatically classify news articles as Real or Fake using Natural Language Processing techniques.
 
 Approach:The project begins with exploring the WELFake dataset to understand its structure and label distribution, followed by basic preprocessing such as removing missing values and filtering noisy text. The cleaned data is then split into training and validation sets while maintaining class balance. Text data is tokenized using a pretrained DistilBERT tokenizer with appropriate padding and truncation to ensure consistent input size. The processed data is converted into a format suitable for model training, and a pretrained DistilBERT model is fine-tuned on this dataset. Finally, the model’s performance is evaluated using standard metrics.
